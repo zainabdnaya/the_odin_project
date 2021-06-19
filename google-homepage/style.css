@@ -1,0 +1,29 @@
+.nav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.sign_button{
+  background-color: #4885ed;
+  color: #fff;
+  border:none;
+  border-radius:3px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position:relative;
+  font-weight:lighter;
+  bottom:7px;
+  font-size: 12px;
+  height: 39px;
+}
+
+.grid{
+  height:25px;
+  position:relative;
+  bottom:4px;
+  color: black;
+}
