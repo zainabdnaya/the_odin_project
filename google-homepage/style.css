@@ -8,7 +8,7 @@
 }
 
 .sign_button{
-  background-color: #4885ed;
+  background-color: #2063d6;
   color: #fff;
   border:none;
   border-radius:3px;
@@ -17,8 +17,8 @@
   position:relative;
   font-weight:lighter;
   bottom:7px;
-  font-size: 12px;
-  height: 39px;
+  font-size: 15px;
+  height: 36px;
 }
 
 .grid{
@@ -26,4 +26,69 @@
   position:relative;
   bottom:4px;
   color: black;
+}
+
+.logo
+{
+      text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 112px;
+  padding-bottom: 20px;
+
+    position: center;
+  margin: 10em 32.5em;
+  display: flexbox;
+}
+
+.bar{
+  margin:0 auto;
+  width:550px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+}
+.bar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.searchbar{
+  height:45px;
+  border:none;
+  width:500px;
+  font-size:15px;
+  outline: none;
+  border-radius: 5px;
+
+}
+
+
+.voice{
+  height:20px;
+  position:relative;
+  top:5px;
+  left:-3px;
+}
+
+.button{
+  background-color: #c2c1df;
+  border:none;
+  color:#5f5c5c;
+  font-size:16px;
+  padding: 10px 20px;
+  margin:5px;
+  border-radius:5px;
+  outline:none;
+    margin-top:30px;
+    font-weight: lighter;
+
+}
+.button:hover{
+  border: 1px solid #c8c8c8;
+  padding: 9px 19px;
+  color:#808080;
+}
+.button:focus{
+  border:1px solid #4885ed;
+  padding: 9px 19px;
 }
