@@ -1,0 +1,23 @@
+#header-img{
+    position:absolute;
+    left:0;
+    top:0;
+    width: 100px; height: 50px;
+}
+
+#nav-bar{
+    position:absolute;
+    right:0;
+    top:0;
+    margin-right: 10px;
+    word-spacing : 10px;
+}
+
+body {
+    text-align: center;
+}
+form {
+    width:90%;
+    margin:0 auto;
+    margin-top: 90px;
+}

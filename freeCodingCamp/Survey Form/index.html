@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </head>
+  <body>
+    <font color="#ffffff" face="helvetica, arial">
+      <title>Survey Form</title>
+      <h1 id="title">Application For Fun</h1>
+      <h2 id="description">Take it easy ! Nothing serious.</h2>
+      <form id="survey-form" action="#" method="POST">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"">Age</label>
+          <input
+            type="number"
+            class="form-control"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            placeholder="Enter your age"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="bith">Birthdate</label>
+          <input type="date" id="bday" name="bday" />
+        </div>
+        <div class="form-group">
+          <p>What type of video  games You like the most</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select a Type</option>
+            <option value="student">Sandbox</option>
+            <option value="job">Real-time strategy</option>
+            <option value="learner">Shooters </option>
+            <option value="preferNo">Simulation and sports</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>Do like to play with a parthner?</p>
+        <div>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+            />Definitely</label
+          >
+        </div>
+        <div>
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Maybe</label
+          >
+        </div>
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure</label
+          >
+        </div>
+        <div class="form-group">
+        <p>
+          Do you know / play any of these Games?
+        </p>
+      <div>
+        <label
+          ><input
+            name="prefer"
+            value="Call of Duty"
+            type="checkbox"
+            class="input-checkbox"
+          />Call of Duty</label>
+          </div>
+          <div>
+
+        <label>
+          <input
+            name="prefer"
+            value="League of Legend"
+            type="checkbox"
+            class="input-checkbox"
+          />League of Legend</label
+        >
+        </div>
+        <div>
+        <label
+          ><input
+            name="prefer"
+            value="Grand Theft Auto: Vice City"
+            type="checkbox"
+            class="input-checkbox"
+          />Grand Theft Auto: Vice City</label
+        >
+        </div>
+        <div>
+        <label
+          ><input
+            name="prefer"
+            value="The Legend of Zelda: Twilight Princess"
+            type="checkbox"
+            class="input-checkbox"
+          />The Legend of Zelda: Twilight Princess</label
+        >
+        </div>
+        <div>
+
+        <label
+          ><input
+            name="prefer"
+            value="open-source-community"
+            type="checkbox"
+            class="input-checkbox"
+          />Open Source Community</label
+        >
+
+        </div>
+      </div>
+  
+
+        <div class="form-group">
+          <p>What is your favorites video game?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your favorites here..."
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+      </form>
+    </font>
+  </body>
+</html>

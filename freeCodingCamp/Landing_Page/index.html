@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head id="header">
+    <title>Landing page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="logo">
+      <img
+        id="header-img"
+        src="https://icon-library.com/images/url_650535_59564.png"
+      />
+    </div>
+
+    <nav id="nav-bar">
+      <a class="nav-link" href="#About">About Us</a>
+      <a class="nav-link" href="#Products">Products</a>
+      <a class="nav-link" href="#Delivery">DeliveryServices</a>
+    </nav>
+  </head>
+  <body>
+    <form id="survey-form" action="#" method="POST">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+    </form>
+    <section id="About">
+      <iframe
+        id="video"
+        height="200"
+        src="https://www.youtube.com/watch?v=tqBBwcKFzQA"
+        allowfullscreen
+      ></iframe>
+    </section>
+  </body>
+</html>
