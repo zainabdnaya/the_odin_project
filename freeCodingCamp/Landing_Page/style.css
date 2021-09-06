@@ -1,3 +1,18 @@
+@media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+      background-color: black;
+    }
+  }
+
+
+@media (max-width: 600px) {
+    body {
+      flex-wrap: wrap;
+      background-color: blue;
+    }
+  }
+  
 #header-img{
     position:absolute;
     left:0;
@@ -16,8 +31,10 @@
 body {
     text-align: center;
 }
+
 form {
     width:90%;
     margin:0 auto;
     margin-top: 90px;
 }
+
